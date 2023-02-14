@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=red-hat-display@300,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[url('bg.jpg')] bg-cover">
+    <div class="h-20 relative">
+        <div class="flex flex-cols-3 absolute right-10  top-5 text-2xl gap-5"> <A href="index.html"><button
+                    class="hover:underline hover:underline-offset-4 h-20  h-20  "
+                    style="font-family: 'Red Hat Display', sans-serif;">Home</button></A>
+           
+            <a href="login.html"><button class=" hover:underline hover:underline-offset-4 h-20 h-20 "
+                    style="font-family: 'Red Hat Display', sans-serif;">Log Out</button></a>
+            <a href="register.html"> <button class=" hover:underline hover:underline-offset-4 h-20 h-20 "
+                    style="font-family: 'Red Hat Display', sans-serif;">Add Contact</button></a>
+        </div>
+        <div class="w-40  h-20 absolute left-10 top-5 text-2xl font-bold"
+            style="font-family: 'Red Hat Display', sans-serif;">Chirp
+        </div>
+        <div class="flex flex-cols-5 absolute top-32 gap-5 left-5">
+            <div class="h-[80vh] w-[250px] bg-white  rounded-[20px]">
+                <div class="flex flex-col justify-center items-center p-5 text-xl font-bold"
+                    style="font-family: 'Red Hat Display', sans-serif;">Your Contacts</div>
+                <div class="grid grid-rows-5 p-5 gap-10">
+                    <div class="text-black text-xl font-bold gap-5 flex flex-cols-2 items-center"
+                        style="font-family: 'Red Hat Display', sans-serif;">
+                        <img src="https://images.unsplash.com/photo-1670272504471-61a632484750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class=" w-20 rounded-full">
+                        John Doe
+                    </div>
+                    <div class="text-black text-xl font-bold gap-5 flex flex-cols-2 items-center"
+                        style="font-family: 'Red Hat Display', sans-serif;">
+                        <img src="https://images.unsplash.com/photo-1670272504471-61a632484750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class=" w-20 rounded-full">
+                        John Doe
+                    </div>
+                    <div class="text-black text-xl font-bold gap-5 flex flex-cols-2 items-center"
+                        style="font-family: 'Red Hat Display', sans-serif;">
+                        <img src="https://images.unsplash.com/photo-1670272504471-61a632484750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class=" w-20 rounded-full">
+                        John Doe
+                    </div>
+                    <div class="text-black text-xl font-bold gap-5 flex flex-cols-2 items-center"
+                        style="font-family: 'Red Hat Display', sans-serif;">
+                        <img src="https://images.unsplash.com/photo-1670272504471-61a632484750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class=" w-20 rounded-full">
+                        John Doe
+                    </div>
+                    <div class="text-black text-xl font-bold gap-5 flex flex-cols-2 items-center"
+                        style="font-family: 'Red Hat Display', sans-serif;">
+                        <img src="https://images.unsplash.com/photo-1670272504471-61a632484750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class=" w-20 rounded-full">
+                        John Doe
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[80vh] w-[850px] bg-white  rounded-[20px] relative">
+                
+              <div class="absolute bottom-5">  <div class="h-20 mx-5 bg-gray-100 "></div> </div>
+                <div class="text-black text-xl p-5 font-bold absolute top-2 "  style="font-family: 'Red Hat Display', sans-serif;">John Doe</div>
+                <div class="text-black text-xl w-full p-5 font-bold absolute bottom-2 "  style="font-family: 'Red Hat Display', sans-serif;">	<form>
+                    <label for="chat" class="sr-only">Your message</label>
+                    <div class="flex items-center py-2 px-3 bg-gray-50 rounded-lg dark:bg-gray-700">
+                        <button type="button" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path></svg>
+                        </button>
+                        <button type="button" class="p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clip-rule="evenodd"></path></svg>
+                        </button>
+                        <textarea id="chat" rows="1" class="block mx-4 p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
+                            <button type="submit" class="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600">
+                            <svg class="w-6 h-6 rotate-90" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
+                        </button>
+                    </div>
+                </form></div>
+            <div class="py-5 px-2.5 flex flex-cols-3 absolute right-5">    <button class="text-black text-xl p-2 font-bold  hover:bg-gray-100 hover:rounded-xl "  style="font-family: 'Red Hat Display', sans-serif;">Clear Messages </button><button class="text-black text-xl p-2 font-bold   hover:bg-gray-100 hover:rounded-xl "  style="font-family: 'Red Hat Display', sans-serif;">☎️ </button><button class="text-black text-xl p-2 font-bold  hover:bg-gray-100 hover:rounded-xl "  style="font-family: 'Red Hat Display', sans-serif;">📹 </button></div>
+   
+        </div>
+        
+            <div class="h-[80vh] w-[250px] bg-white p-5 rounded-[20px] justify-center  grid grid-rows-5">
+<div class="flex flex-col justify-center items-center"><div class="h-32 bg-black w-full  rounded-xl font-bold" ></div><h1 style="font-family: 'Red Hat Display', sans-serif;">Your Video</h1></div>
+<div class="flex flex-col justify-center items-center"><div class="h-32 bg-black w-full  rounded-xl font-bold" ></div><h1 style="font-family: 'Red Hat Display', sans-serif;">John Doe's Video</h1></div>
+<div class="mt-4 sm:mt-8">
+    <a
+      class=" inline-flex items-center px-8 py-3 text-white transition bg-gray-900 rounded-full shadow-lg focus:outline-none focus:ring focus:ring-yellow-400 hover:bg-gray-800"
+      href="#"
+    >
+      <span class="text-sm font-medium"> Initiate Call </span>
+
+      <svg
+        class="w-5 h-5 ml-3"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M17 8l4 4m0 0l-4 4m4-4H3"
+        />
+      </svg>
+    </a>
+  </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <Script>
+
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+            window.location.href = "mobile.html";
+        }
+    </script>
+</body>
+
+</html>
