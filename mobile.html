@@ -6,18 +6,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   
 
-<Script>
-    window.addEventListener('load', function() {
-      const preloader = document.getElementById('preloader');
-      preloader.style.display = 'none';
-    });
-    
-    
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-     
-      window.location.href = "mobile.html";
-    }
-    </script>
+
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
   <style>
     .banter-loader {
@@ -537,12 +526,17 @@
 </div>
 
 <Script>
-
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
- 
-  window.location.href = "mobile.html";
-}
-</script>
+    window.addEventListener('load', function() {
+      const preloader = document.getElementById('preloader');
+     // preloader.style.display = 'none';
+    });
+    
+    
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+     
+      window.location.href = "mobile.html";
+    }
+    </script>
 </body>
 
 </html>
